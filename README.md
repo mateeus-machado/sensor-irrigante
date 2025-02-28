@@ -42,5 +42,8 @@ Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias nes
 
 Segue o vídeo de explicação do código demonstração do funcionamento do código na placa.
 
+https://youtu.be/4B5WxK4mTck
+
+
 
 
