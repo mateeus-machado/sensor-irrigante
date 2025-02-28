@@ -1,5 +1,5 @@
-#ifndef CONTROLE_LEDS_H
-#define CONTROLE_LEDS_H
+#ifndef LEDS_RGB_H
+#define LEDS_RGB_H
 
 #include "pico/stdlib.h"
 
@@ -8,5 +8,5 @@
 #define PINO_LED_AZUL 12
 
 void controle_leds_init();
-void definir_cor_led(uint16_t nivel_umidade, bool bomba_irrigacao_ligado);
+void definir_cor_led(int estado);
 #endif

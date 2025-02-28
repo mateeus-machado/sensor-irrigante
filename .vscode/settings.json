@@ -39,6 +39,7 @@
     "files.associations": {
         "multicore.h": "c",
         "botoes.h": "c",
-        "controle-umidade.h": "c"
+        "controle-umidade.h": "c",
+        "controle-leds.h": "c"
     }
 }

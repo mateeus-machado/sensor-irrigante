@@ -1,4 +1,4 @@
-#include "../includes/joystick.h"
+#include "joystick.h"
 #include "hardware/adc.h"
 
 void joystick_init()

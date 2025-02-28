@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 #include "hardware/clocks.h"
-#include "../includes/buzzer.h"
+#include "buzzer.h"
 
 #include "pico/multicore.h"
 volatile bool deve_tocar = false;
@@ -33,7 +33,7 @@ void beep_background(uint note, uint duration) {
 void beep_task() {
     while (true) {
         if (deve_tocar) {  // Variável global controlando o beep
-            beep_background(500, 0);
+            beep_background(1000, 500);
             deve_tocar = false;
         }
         sleep_ms(10); // Pequena espera para evitar uso excessivo de CPU

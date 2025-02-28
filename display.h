@@ -10,6 +10,5 @@
 #define PINO_I2C_SCL 15
 
 void display_init();
-void display_exibir_valores(uint16_t valor_y, bool bomba_irrigacao_ligado);
-
+void display_exibir(int animacao, int umidade);
 #endif
