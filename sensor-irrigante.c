@@ -24,11 +24,11 @@
 uint8_t umidade = 50;
 
 void verificar_umidade() {
-    if (umidade < 30) {
+    if (umidade < 20) {
         display_pattern(pio0, 0, numbers[2], umidade);
         display_exibir(1, umidade);
         deve_tocar = true;
-    } else if (umidade >= 30 && umidade < 40) {
+    } else if (umidade >= 20 && umidade < 40) {
         display_pattern(pio0, 0, numbers[1], umidade);
         display_exibir(2, umidade);
         deve_tocar = false;
